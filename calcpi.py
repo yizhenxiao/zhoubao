@@ -1,0 +1,1 @@
+﻿'''####求π(pai)的值，随机精确小数点后面位数import randomn=random.randint(1,100)c = 0print(list(range(n)))for i in range(n):    x = random.random()    y = random.random()    if (x*x + y*y)<1:        c = c+1print(4.0*c/n,x,y)''''''n=0for i in range(100):	n+=iprint(n)'''def sum():        sum = 0        for i in range(100):            sum += i        print(sum)sum()
